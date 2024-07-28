@@ -12,6 +12,6 @@ def install
 end
 
 test do
-  assert_match 'Dead Modules vv1.0.1', shell_output('#{bin}/dead_modules --version')
+  assert_match 'Dead Modules v1.0.1', shell_output('#{bin}/dead_modules --version')
 end
 end
