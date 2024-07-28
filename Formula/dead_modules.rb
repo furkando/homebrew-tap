@@ -2,7 +2,7 @@ class DeadModules < Formula
 desc 'CLI tool to manage and delete old node_modules directories'
 homepage 'https://github.com/furkando/dead_modules'
 url 'https://github.com/furkando/dead_modules/archive/refs/tags/v1.0.2.tar.gz'
-sha256 'fee32bb1c13b37b7bc22069a877ee684b8a23433ff2d2cd01394abfaa01b7683'
+sha256 '2597711341b097c3d6cbec4efc34449defc1a2c97fc7a69831e59b258078fdbe'
 license 'MIT'
 
 depends_on 'go' => :build
