@@ -1,8 +1,8 @@
 class DeadModules < Formula
 desc 'CLI tool to manage and delete old node_modules directories'
 homepage 'https://github.com/furkando/dead_modules'
-url 'https://github.com/furkando/dead_modules/archive/refs/tags/.tar.gz'
-sha256 '014158f30d2d558970518b3133b30a6a3595cc5bf203b601b83f6401b3e166a0'
+url 'https://github.com/furkando/dead_modules/archive/refs/tags/v1.0.1.tar.gz'
+sha256 '620d92ec68502f29b66d5c7a334c75b268c5f49bda2204ef5f8fd3a2ad95914e'
 license 'MIT'
 
 depends_on 'go' => :build
@@ -12,6 +12,6 @@ def install
 end
 
 test do
-  assert_match 'Dead Modules v', shell_output('#{bin}/dead_modules --version')
+  assert_match 'Dead Modules vv1.0.1', shell_output('#{bin}/dead_modules --version')
 end
 end
